@@ -213,7 +213,7 @@ main {
 }
 
 .toc {
-	padding:10px 25px;
+	padding:10px 25px 25px 25px;
 	border: 1px solid white;
 }
 .toc li {
