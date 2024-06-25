@@ -584,7 +584,7 @@ header h1 {
 /*	height:0px;
 	width:0px;
 	overflow:hidden;*/
-	font-size: 14pt !important;
+	font-size: 16pt !important;
 }
 .content h2 {
 	font-size:20pt;
@@ -607,7 +607,7 @@ nav ul li {
 	background-color:#0e3b23;
 	width:100%;
 	margin:0px;
-	padding:5px 0;
+	padding:7px 0;
 }
 nav ul li a {	font-size: 12pt !important;}
 
