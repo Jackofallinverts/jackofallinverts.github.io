@@ -159,6 +159,9 @@ main {
 	padding-bottom:20px;
 	line-height:1.8;
 }
+.content.sidepage p {
+	padding-bottom:0px !important;
+}
 
 .content h1 {
 	padding-bottom: 0px;
@@ -198,6 +201,9 @@ main {
 	margin:0 auto;
 	font-family:Open Sans, sans-serif;
 }
+.content.sidepage ul, .content.sidepage ol {
+	width:100%;
+}
 
 .content li {
 	margin-left:25px;
@@ -217,13 +223,16 @@ main {
 
 .forsale {
 	display: inline-block;
+	padding-bottom: 0px !important;
 
 }
 .forsale img {
-	max-width:300px;
+	width:300px;
+	max-width: 100%;
 }
 .forsale.big img {
-	max-width:500px;
+	width:500px;
+	max-width: 100%;
 }
 
 .line {
@@ -323,7 +332,7 @@ Because it's a big space.*/
 }
 
 .artgallery {
-	width:90%;
+	/*width:90%;*/
 	margin:0 auto;
 }
 .artgallery p {
@@ -539,6 +548,15 @@ input[type=submit]:hover {
 .column:last-child {
 	margin-right:10px;
 }
+.toc.column:first-child {
+	margin-left:0px;
+}
+.toc.column:last-child {
+	margin-right:0px;
+}
+.toc ul, .toc ol {
+	padding-bottom:0px;
+}
 .content h2 {
 	font-size:20pt;
 	line-height:1.0;
@@ -571,9 +589,9 @@ header h1 {
 	font-size:20pt;
 }
 
-.content h3 {
+/*.content h3 {
 	padding: 0 5%;
-}
+}*/
 nav {
 	height:0px;
 	margin:0px;
@@ -642,11 +660,21 @@ nav ul li {
     max-width: 100%;
 	padding:0px;
   }
+
   .column:first-child {
 	margin-left:10px;
 }
 .column:last-child {
 	margin-right:10px;
+}
+.toc .column:first-child {
+	margin-left:0px;
+}
+.toc .column:last-child {
+	margin-right:0px;
+}
+.content.sidepage {
+	padding: 30px 30px 0px 30px;
 }
 }
 }
