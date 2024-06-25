@@ -584,7 +584,7 @@ header h1 {
 /*	height:0px;
 	width:0px;
 	overflow:hidden;*/
-	font-size: 11pt;
+	font-size: 12pt !important;
 }
 .content h2 {
 	font-size:20pt;
@@ -609,7 +609,7 @@ nav ul li {
 	margin:0px;
 	padding:5px 0;
 }
-nav ul li a {	font-size: 11pt;}
+nav ul li a {	font-size: 11pt !important;}
 
 .cta {
 	margin:0px auto;
