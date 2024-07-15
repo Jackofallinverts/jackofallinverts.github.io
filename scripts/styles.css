@@ -12,7 +12,7 @@ html {
 	height:100%;
 }
 body {
-	background-color:#9b814a !important;
+	background-color:#c19c57 !important;
 	font-family:Lexend, serif !important;
 	color:white !important;
 	height:100%;
@@ -41,7 +41,10 @@ header h1 {
 	margin-bottom:0px;
 	line-height:2.0;
 	font-weight:400;
-	color:#c19c57;	
+	color:#8d9633;	
+}
+header h1 a {
+	color:#8d9633 !important;	
 }
 
 .logo {
@@ -170,7 +173,7 @@ main {
 
 .content h2 {
 	font-family:Lexend, serif;
-	font-size:24pt;
+	font-size:26pt;
 	text-align:center;
 	margin:25px 5%;
 	padding-bottom:25px;
@@ -181,19 +184,40 @@ main {
 
 .content h3 {
 	font-family:Lexend, sans-serif;
-	font-size:18pt;
+	font-size:22pt;
 	text-align: center;
 	font-weight:300;
 	margin:15px 0;
-		color:#c19c57;
+	color:#c19c57;
 
 }
-.content.sidepage h3 {
-	text-align: left;
+.content.sidepage h3, .content.sidepage h4 {
+	text-align: center;
 }
 
 .content h4 {
-	margin-bottom: 0px;
+	font-size: 18pt;
+	color:#c19c57;
+}
+.content h5 {
+	font-size:15pt;
+}
+
+.content.sidepage.for-sale h4 {
+	border: 1px solid white;
+	padding: 20px;
+	margin: 35px 0px 3px 0px;
+}
+.content.sidepage.for-sale h5 {
+	color:#c19c57;
+}
+.content.sidepage.caresheets h5 {
+	margin-bottom:0px !important;
+	font-size:14pt;
+}
+
+.content h6 {
+	font-size:12pt;
 }
 
 .content ul, .content ol {
@@ -211,28 +235,23 @@ main {
 	list-style-type: "\27e1";
 	font-size: 11pt;
 }
-
+.boxholder {
+	display: inline-block;
+}
+.box {
+	padding:10px 25px 25px 25px;
+	border: 1px solid #fff;
+	width:49%;
+	display: inline-block;
+	vertical-align: top;
+}
 .toc {
 	padding:10px 25px 25px 25px;
-	border: 1px solid white;
+	border: 1px solid #fff;
 }
 .toc li {
 	list-style-type: "\27e1";
 	color:#c19c57;
-}
-
-.forsale {
-	display: inline-block;
-	padding-bottom: 0px !important;
-
-}
-.forsale img {
-	width:300px;
-	max-width: 100%;
-}
-.forsale.big img {
-	width:500px;
-	max-width: 100%;
 }
 
 .line {
@@ -266,11 +285,11 @@ main {
 }
 
 .parallax-2 {
-	background-image: url("../images/monch.jpg");
+	background-image: url("../images/nikemaybe.jpg");
 }
 
 .parallax-3 {
-	background-image: url("../images/nikemaybe.jpg");
+	background-image: url("../images/carliebreed.jpg");
 }
 
 .parallax-4 {
@@ -440,6 +459,7 @@ footer p {
 
 
 .row {
+  margin:0px !important;
   display: flex;
   flex-wrap: wrap;
 }
@@ -452,6 +472,7 @@ footer p {
   flex: calc(100% / 4 - 20px);
   max-width: 25%;
   margin: 1.5px;
+  margin-bottom:3px !important;
 }
 .half {
   flex: calc(100% / 2 - 10px);
@@ -470,6 +491,28 @@ footer p {
   vertical-align: middle;
   width: 100%;
 }
+
+.column img:last-child {
+	margin-right:0px;
+}
+
+.column .two img {
+  margin-top: 3px;
+  margin-right:3px;
+  vertical-align: middle;
+  width:calc((100%/2) - 3px);
+  display:inline-block;
+}
+
+.column .three img {
+  margin-top: 3px;
+  margin-right:0px;
+  vertical-align: middle;
+  width: calc((100%/3) - 3px);
+  display:inline-block;
+}
+
+
 
 
 
