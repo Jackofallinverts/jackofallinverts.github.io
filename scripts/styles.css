@@ -232,8 +232,10 @@ main {
 .content li {
 	margin-left:25px;
 	padding-left:10px;
-	list-style-type: "\27e1";
 	font-size: 11pt;
+}
+.content ul li {
+	list-style-type: "\27e1";
 }
 .boxholder {
 	display: inline-block;
