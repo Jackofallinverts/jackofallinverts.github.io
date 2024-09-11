@@ -195,6 +195,11 @@ main {
 	text-align: center;
 }
 
+h4.home {
+	text-align: left !important;
+	padding-left:25px;
+}
+
 .content h4 {
 	font-size: 18pt;
 	color:#c19c57;
@@ -339,19 +344,12 @@ Because it's a big space.*/
 
 .smallspace {
 	display:inline-block;
-	padding:0;
+	padding: 25px 0;
 	border-left:1px solid white;
 }
 .smallspace p {
 	padding-left:50px;
 }
-.smallspace p:first-of-type, .smallspace ul:first-of-type, .smallspace ol:first-of-type {
-	padding-top:25px;
-}
-.smallspace p:last-of-type, .smallspace ul:last-of-type, .smallspace ol:last-of-type {
-	padding-bottom:25px;
-}
-
 .artgallery {
 	/*width:90%;*/
 	margin:0 auto;
@@ -481,6 +479,10 @@ footer p {
   max-width:50%;
   margin: 0 1.5px;
 }
+.whole {
+	flex:100%; 
+	max-width:100%;
+}
 .column:first-child {
 	margin-left:0px;
 }
@@ -582,16 +584,19 @@ input[type=submit]:hover {
 	}
 }
 
+@media screen and (min-width: 800px) {
+
+.column:first-child {
+	margin-left:0px;
+}
+.column:last-child {
+	margin-right:0px;
+	}
+}
 @media screen and (max-width: 800px) {
 .column {
     flex: calc(100% / 2 - 20px);
     max-width: 50%;
-}
-.column:first-child {
-	margin-left:10px;
-}
-.column:last-child {
-	margin-right:10px;
 }
 .toc.column:first-child {
 	margin-left:0px;
@@ -703,14 +708,14 @@ nav ul li a {	font-size: 12pt !important;}
   .column {
     flex: 100%;
     max-width: 100%;
-	padding:0px;
+	/*padding:0px;*/
   }
 
-  .column:first-child {
-	margin-left:10px;
+.column:first-child {
+	margin:0px;
 }
 .column:last-child {
-	margin-right:10px;
+	margin:0px;
 }
 .toc .column:first-child {
 	margin-left:0px;
