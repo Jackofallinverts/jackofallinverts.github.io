@@ -261,12 +261,20 @@ h4.home {
 	color:#c19c57;
 }
 
-.line {
-  background-image: linear-gradient(to right, #c19c57, #0e3b23 30%, #0e3b23 50%, #0e3b23 70%, #c19c57 );
-  background-repeat: no-repeat;
-  background-size: 100% 1px;
-  background-position: 0 center;
-  height:1px;
+.infoleft {
+	display:inline-block;
+	padding-right:50px;
+	width: calc((100%/2) - 50px);
+	border-right: 1px solid white;
+	margin-bottom:25px;
+	vertical-align: text-top;
+}
+.inforight {
+	display: inline-block;
+	width: calc((100%/2) - 50px);
+	padding-left: 25px;
+	margin-bottom:25px;
+	vertical-align: text-top;
 }
 
 .parallax {
@@ -288,19 +296,19 @@ h4.home {
 /*Sets the images on the homepage. Add as many as needed.*/
 
 .parallax-1 {
-	background-image: url("../images/mantisonface.jpg");
+	background-image: url("../images/portiaonface.jpg");
 }
 
 .parallax-2 {
-	background-image: url("../images/nikemaybe.jpg");
+	background-image: url("../images/nike.jpg");
 }
 
 .parallax-3 {
-	background-image: url("../images/carliebreed.jpg");
+	background-image: url("../images/budwingbreed.jpg");
 }
 
 .parallax-4 {
-	background-image: url("../images/whoisthiseven.jpg");
+	background-image: url("../images/vulcan.jpg");
 }
 
 /*Bigspace holds all the non-image 
